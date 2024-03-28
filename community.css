@@ -1,0 +1,76 @@
+/* Global styles */
+body {
+    background-image: url('black.jpg');
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('solid.jpg');
+   
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-image: url('solid.jpg');
+    background-color: #333;
+    color: #08567a;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Community-specific styles */
+.community {
+    text-align: center;
+    background-image: url('solid.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #faf3f3;
+    padding: 50px 20px;
+}
+
+.community h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.community p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.community .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.community .btn:hover {
+    background-color: #45a049;
+}

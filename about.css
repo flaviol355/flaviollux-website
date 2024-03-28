@@ -1,0 +1,81 @@
+/* Reset default margin and padding */
+* {
+    background-image: url('black.jpg');
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f8fd00;
+    color: #04dffc;
+}
+
+/* Header styling */
+header {
+    background-color: #0884b4;
+    color: #fff;
+    padding: 1rem;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fcf808;
+    text-decoration: none;
+}
+
+/* Main styling */
+main {
+   
+    padding: 20px;
+}
+
+/* About section styling */
+.about {
+    background-color: #f8f8f402;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.about h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.about p {
+    margin-bottom: 10px;
+}
+
+/* Image styling */
+.about-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #33333302;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
